@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html >
+   <head>
+     <meta charset ="utf-8">
+     <title>first camp Aggci sejour</title>
+     <style>
+       body {
+          font: 15px/1.5 Arial,Helvetica,sans-serif;
+          padding:0;
+          margin:0;
+        }
+       header{
+         color: #ffffff;
+         border-bottom: #e8491dd2 5px solid;
+         border-bottom-left-radius: 8px;
+         border-bottom-right-radius: 8px;
+       }
+       header .highlight, header .current a{
+       color:#e8491d;
+       font-weight:bold;
+       }
+       header nav{
+        float: left;
+        margin-top:30px;
+        padding-left:200px;
+       }
+       header li{
+       float:left;
+       display:inline;
+       padding: 0 20px 0 20px;
+       }
+       header #branding{
+       float:left;
+       }
+       header #branding h1{
+       margin: 0 10px;
+       }
+       header a{
+         color: #ffffff;
+       }
+       .container{
+        width:100%;
+        margin: auto;
+        overflow:hidden;
+        background-color:#087573fa;
+        }
+        ul{
+           margin:0;
+           padding:0;
+           }
+        #planducours{
+          padding-bottom: 0%;
+          height: 90%;
+          margin-left: 35px;
+          width: 95%;
+          border-radius: 8px;
+          background-color: #087573fa;
+        }
+        #planducours .PC{
+          padding-bottom: 0%;
+          width: 47.5%;
+          color: #ffffff;
+        }
+        #planducours H1{
+          text-align: center;
+          color: #e8491d;
+        }
+          
+        .cours{
+          width:100%;
+          margin-top: 3px;
+          margin-bottom: 0px;
+          float: left;
+          overflow: hidden;
+          border-top-left-radius:  8px;
+          border-top-right-radius: 8px;
+          background-color: #087573fa;
+          box-shadow: auto;
+         }
+         .courss{
+          width:100%;
+          margin: 0px 0px;
+          float: inline-end;
+          display:flex;
+          flex-wrap: wrap;
+          overflow: hidden;
+          background-color: #087573fa;
+          box-shadow: auto;
+         }
+         #citation{
+          border-radius: 8px;
+          text-align: center;
+          text-transform: capitalize;
+          text-emphasis-style: filled double-circle;
+          background-color: #e8491d;
+          margin: 15px 15%;
+          width: 70%;
+          color: #ffffff;
+          padding: 10px 10px;
+          background-size: contain;
+            box-shadow: 0px 15px 10px #777;
+         }
+        .row {
+         display:flex;
+         flex-wrap:wrap;
+         width: 100%;
+         height:90%;
+        } 
+        .PC{
+          display: inline-block;
+          flex-wrap: wrap-reverse;
+          height:90%;
+          width: 100%;
+          text-align: center;
+          margin-bottom: 2%;
+        }
+        .cellule{
+          border:white 3px solid;
+          border-left: 0;
+          border-top: 1px;
+          padding: 5px;
+          width: 90%;
+          height: 15%;
+          text-align: left;
+          padding-bottom: 0%;
+        }
+        .sous1{
+            float: left;
+            width: 550px;
+            height: 367px;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 10px;
+            margin-left: 30px;
+            background-color: white;
+            background-size: contain;
+            box-shadow: 0px 15px 10px #777;
+            animation: fondu 12s ease-in-out 1s infinite normal both, largeur 12s ease-in-out 1s infinite normal, longueur 12s ease-in-out 1s infinite normal;
+          } 
+          .sous1:hover{
+            animation-play-state: paused;
+          }
+          @keyframes fondu {
+            0%{background-image:url(./img/dea5da36-7b6b-467d-b1c7-f8985534062b.jpg) ; }
+            33.36%{background-image:url(./img/IMG-20230926-WA0039.jpg) ; }
+            66.67%{background-image:url(./img/IMG-20230926-WA0036.jpg) ; }
+            100%{background-image:url(./img/IMG-20230926-WA0041.jpg) ; } 
+          }
+          @keyframes largeur {
+            0%{width: 550px ; }
+            33.36%{width: 550px ; }
+            66.67%{width:  550px; }
+            100%{width: 490px ; } 
+          }
+          @keyframes longueur{
+            0%{height: 367px; }
+            33.36%{height: 310px;}
+            66.67%{height: 310px; }
+            100%{height: 367px; } 
+          }
+
+          .sous2{
+           display: flex;
+            width: 650px;
+            height: 367px;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: 10px;
+            flex-wrap: wrap;
+            background-color: white;
+            background-size: contain;
+            box-shadow: 0px 15px 10px #777;
+            animation: fondue 12s ease-in-out 1s infinite normal both, largeure 12s ease-in-out 1s infinite normal, longueure 12s ease-in-out 1s infinite normal;
+          } 
+          .sous2:hover{
+            animation-play-state: paused;
+          }
+          @keyframes fondue {
+            0%{background-image:url(./img/IMG-20230926-WA0038.jpg) ; }
+            33.36%{background-image:url(./img/bedoni.jpg) ; }
+            66.67%{background-image:url(./img/IMG_1765.jpg) ; }
+            100%{background-image:url(./img/IMG_1712.jpg) ; } 
+          }
+          @keyframes largeure {
+            0%{width: 650px ; }
+            33.36%{width: 650px ; }
+            66.67%{width:  600px; }
+            100%{width: 650px ; } 
+          }
+          @keyframes longueure {
+            0%{height: 367px; }
+            33.36%{height: 367px;}
+            66.67%{height: 340px; }
+            100%{height: 367px; } 
+          }
+
+          #parole{
+            width: 100%;
+            margin: 0px 0px;
+            background-color: #087573fa;
+            display: flex;
+            color: #ffffff;
+          }
+          .column{
+            width:50%;
+            margin: 2px 2px;
+          }
+          .sous3{
+            width: 900px;;
+            height: 382px;
+            color: #ffffff;
+            float: inline-end;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            background-size: contain;
+            box-shadow: 0px 15px 10px #777;
+            animation: fonduee 12s ease-in-out 1s infinite normal both, largeuree 12s ease-in-out 1s infinite normal, longueuree 12s ease-in-out 1s infinite normal;
+          } 
+             .sous3:hover{
+            animation-play-state: paused;
+          }
+            @keyframes fonduee {
+            0%{background-image:url(./img/cad72a66-5113-498d-bf13-aa26d0d54598.jpg) ; }
+            33.36%{background-image:url(./img/IMG-20230910-WA0027.jpg) ; }
+            66.67%{background-image:url(./img/IMG-20230912-WA0092.jpg) ; }
+            100%{background-image:url(./img/FB_IMG_16950630901763460.jpg) ; } 
+          }
+          @keyframes largeuree {
+            0%{width: 900px ; }
+            33.36%{width: 560px ; }
+            66.67%{width:  600px; }
+            100%{width: 500px ; } 
+          }
+          @keyframes longueuree {
+            0%{height: 382px; }
+            33.36%{height: 420px;}
+            66.67%{height: 400px; }
+            100%{height: 350px; } 
+          }         
+
+     </style>
+   </head>
+   <body>
+     <header>
+       <div class="container">
+         <div id="branding">
+           <h1><span class="highlight">AGCCI</span> first team</h1>
+         </div>
+         <nav>
+           <ul>
+             <font size="4px">
+               <li><a href="team1.html">Home</a></li>
+               <li class="current"><a href="sejour.html">Sejour</a></li>
+               <li><a href="about.html">About</a></li>
+             </font>   
+           </ul>
+         </nav>
+       </div>  
+     </header>
+     <section id="planducours">
+       <h1>Deux semaines de formation avaient été prévues pour 51 filles burundaises</h1>
+       <div class="row">
+         <div class="PC">
+           <big>Présentations des modules que chaque fille à suivie <br></big>
+           <div class="cellule">
+             <i> 1.Egalités des sexes et autonomisation de la femme <br></i>
+           </div>
+           <div class="cellule">
+             <i>2.Synthèse sur la diversité de genre et l'inclusion dans les TIC <br></i> 
+           </div>
+           <div class="cellule">
+             <i>3.Introduction à la science informatique <br></i>
+           </div>
+           <div class="cellule">
+             <i> 4.Introduction aux technologies de nouvelles générations  <br></i>
+           </div>
+           <div class="cellule">
+             <i>5.Introduction à l'interface utilisateur/expérience utilisateur<br></i>
+           </div>
+           <div class="cellule">
+             <i>6.Développement de site internet à l'aide de la plateforme blogger<br></i>
+           </div>
+           <div class="cellule">
+             <i>7.Développement d'une application mobile à l'aide du MIT App inventor<br></i>
+           </div>
+           <div class="cellule">
+             <i>8.Développement de sites internet en HTML et CSS<br></i>
+           </div>
+           <div class="cellule">
+             <i>9.Itroduction à l'assemblages et à la programmations de robots en utilisant un mbot Ranger<br></i>
+           </div>
+         </div>
+         <div class="PC">
+            <big> <br> Chaque module avait une chose à part à enseigner à chaque fille.Pour l'aider dans sa vie, on peut voir que tout les secteurs étaient touchaient.
+               Son autonomisation, ses droits, ses devoirs rien ne lui à était cachée. Toutes les facettes de l'informatique lui ont été révélées pour élargir son savoir dans ce domaine 
+               et remplir ses vides qu'elle avait. Chaque module était là comme une preuve et un renforcement pour ses jeunes filles qui ne connaissent pas grands choses dans ce domaine.
+               La fille peut-être ce qu'elle veut, il faut juste lui donner un coup de pouce. 
+            </big>
+         </div>
+       </div> 
+     </section>
+     <section id="citation">
+       <font size="4px">you can absolutely be what you can't see! That is what innovators and informaticians do. </font> 
+     </section>
+     <div class="cours">
+       <div class="sous1">
+       </div>
+       <div class="sous2"> 
+        </div>
+     </div> 
+     <section id="parole">
+       <div class="column">
+         <font size="4.5px">
+           <i>Elles ont trouvé en elles un potentiel qui était éteint. Sans se lasser, on peut voir combien elles 
+                    étaient motivées dans tout ce qu’elles faisaient et tout en travaillant dans l’unité. 
+           </i>
+          </font>
+       </div>
+       <div class="column">
+         <font size="4.5px">
+              <i>
+                Prêt à défendre leurs droits elles avaient reçu et compris leur formation. On sentait en elles une envie de changer les choses et de partager cela avec d'autres comme elle. Maintenant, elles savaient que le monde était bien plus que ce qu'elles pensaient
+             </i>
+          </font>   
+       </div> 
+     </section> 
+     <div class="courss"> 
+       <div class="sous3">
+        </div>
+     </div>
+       <section id="parole">
+         <font size="4.5px">
+             <i>Elles ont crée le lien, une chose qui les lie jusqu'à maintenant. On peut voir la joie dans chaque fille et chaque 
+                formateur car une telle formation change bien des choses dans la vie des gens. Même à la fin elles ont su défendre 
+                leurs idées et les partager sans peur mais espérant juste qu’elles pouvais rendre le monde meilleur.</i>
+         </font> 
+     </section>        
+   </body>
+  </html> 
